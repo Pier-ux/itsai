@@ -14,7 +14,7 @@
             <declare name="Totnumeri" type="Integer" array="False" size=""/>
             <declare name="numeri" type="Integer" array="False" size=""/>
             <declare name="numeroalto" type="Integer" array="False" size=""/>
-            <assign variable="numeroalto" expression="0"/>
+            <assign variable="numeroalto" expression="2"/>
             <declare name="numerobasso" type="Integer" array="False" size=""/>
             <assign variable="numerobasso" expression="0"/>
             <declare name="quantitanumeri" type="Integer" array="False" size=""/>

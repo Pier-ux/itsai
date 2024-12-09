@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Esempio 3"/>
+        <attribute name="authors" value="ITS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-29 01:56:55 "/>
+        <attribute name="created" value="SVRTO0lUUy1QMDY7MjAyNC0xMS0yOTsiMDE6MTk6MjQgIjsxOTAw"/>
+        <attribute name="edited" value="SVRTO0lUUy1QMDY7MjAyNC0xMS0yOTsiMDE6NTY6NTUgIjsyOzIwMTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Totnumeri" type="Integer" array="False" size=""/>
+            <declare name="numeri" type="Integer" array="False" size=""/>
+            <declare name="numeroalto" type="Integer" array="False" size=""/>
+            <assign variable="numeroalto" expression="0"/>
+            <declare name="numerobasso" type="Integer" array="False" size=""/>
+            <assign variable="numerobasso" expression="0"/>
+            <declare name="quantitanumeri" type="Integer" array="False" size=""/>
+            <assign variable="quantitanumeri" expression="0"/>
+            <assign variable="numeri" expression="0"/>
+            <assign variable="totnumeri" expression="0"/>
+            <declare name="fine" type="Boolean" array="False" size=""/>
+            <output expression="&quot;Ciao Buongiorno.&quot;" newline="True"/>
+            <output expression="&quot;Hai dei numeri da dichiarare?&quot;" newline="True"/>
+            <input variable="fine"/>
+            <while expression="fine = true">
+                <output expression="&quot;Inserisci il numero&quot;" newline="True"/>
+                <input variable="numeri"/>
+                <if expression="numero&gt;numero">
+                    <then/>
+                    <else/>
+                </if>
+                <assign variable="quantitanumeri" expression="quantitanumeri+1"/>
+                <assign variable="totnumeri" expression="totnumeri+numeri"/>
+                <output expression="&quot;Hai altri numeri da inserire?&quot;" newline="True"/>
+                <input variable="fine"/>
+            </while>
+            <output expression="&quot;Hai inserito&quot; &amp; quantitanumeri &amp; &quot;numeri&quot;" newline="True"/>
+            <output expression="&quot;La media dei numeri che hai inserito &#232;:&quot; &amp; (totnumeri/quantitanumeri)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
